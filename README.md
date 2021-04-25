@@ -34,9 +34,11 @@ Note - Change the `root` variable to the address of your folder.
 |ShanghaiTech part B  | 16.684        |
 
 ShanghaiTech part A : \
+
 <img src="https://github.com/Dibyakanti/Crowd-counting-EE626-course-project/blob/main/img/A_test.png"> \
 ShanghaiTech part B : \
-<img src="https://github.com/Dibyakanti/Crowd-counting-EE626-course-project/blob/main/img/A_test.png">
+
+<img src="https://github.com/Dibyakanti/Crowd-counting-EE626-course-project/blob/main/img/B_test.png">
 
 
 ## References
