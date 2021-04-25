@@ -9,7 +9,7 @@ We have used Google colab to run all phython notebooks.
 We have already created and saved the ground truths using gaussian filters from the linked [repo](https://github.com/davideverona/deep-crowd-counting_crowdnet\n).
 
 ## Ground Truth Generation
-The ShaghaiTech dataset provides us with head annotations, this sparse matrix was converted in a 2D density map by using a Gaussian Filter. Then we sum all the values in the density map to get the actual count. \
+The ShaghaiTech dataset provides us with head annotations, this sparse matrix was converted in a 2D density map by using a Gaussian Filter. Then we sum all the values in the density map to get the actual count.
 
 Use the `CSRnet_create_dataset.ipynb` to generate the ground truth's. \
 Note - We have already saved the ground truth in this final datasets. \
@@ -33,10 +33,10 @@ Note - Change the `root` variable to the address of your folder.
 |ShanghaiTech part A  | 88.232        | 
 |ShanghaiTech part B  | 16.684        |
 
-ShanghaiTech part A : \
+ShanghaiTech part A :
 
 <img src="https://github.com/Dibyakanti/Crowd-counting-EE626-course-project/blob/main/img/A_test.png"> \
-ShanghaiTech part B : \
+ShanghaiTech part B :
 
 <img src="https://github.com/Dibyakanti/Crowd-counting-EE626-course-project/blob/main/img/B_test.png">
 
