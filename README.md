@@ -23,9 +23,11 @@ Use the `CSRnet_test.ipynb` to test the model using the saved model states.\
 Note - Change the `root` variable to the address of your folder.
 
 ## Results
-Shanghai_A MAE : 88.232\
 
-Shanghai_B MAE : 16.684\
+|       Dataset       | MAE           |  
+| ------------------- | ------------- |
+|ShanghaiTech part A  | 88.232        | 
+|ShanghaiTech part B  | 16.684        |
 
 
 ## References
