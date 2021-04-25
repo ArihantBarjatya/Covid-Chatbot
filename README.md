@@ -6,7 +6,7 @@ We have used Google colab to run all phython notebooks.
 ## Dataset
 
 [ShanghaiTech Dataset](https://drive.google.com/drive/folders/1bKs3w-KfFgyweDwVGpAR_QzCEuz6jm2q?usp=sharing)\
-We have already created and saved the ground truths using gaussian filters from the linked [repo](https://github.com/davideverona/deep-crowd-counting_crowdnet\n).
+We have already created and saved the ground truths using gaussian filters from the linked [repo](https://github.com/davideverona/deep-crowd-counting_crowdnet).
 
 ## Ground Truth Generation
 The ShaghaiTech dataset provides us with head annotations, this sparse matrix was converted in a 2D density map by using a Gaussian Filter. Then we sum all the values in the density map to get the actual count.
