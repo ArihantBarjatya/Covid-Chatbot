@@ -7,6 +7,7 @@ from PIL import Image
 from CSRnet_image import *
 import torchvision.transforms.functional as F
 
+''' A class to store the dataset for the model '''
 class listDataset(Dataset):
     def __init__(self, root, shape=None, shuffle=True, transform=None,  train=False, seen=0, batch_size=1, num_workers=4):
         if train:
@@ -31,12 +32,6 @@ class listDataset(Dataset):
         img_path = self.lines[index]
         
         img,target = load_data(img_path,self.train)
-        
-        #img = 255.0 * F.to_tensor(img)
-        
-        #img[0,:,:]=img[0,:,:]-92.8207477031
-        #img[1,:,:]=img[1,:,:]-95.2757037428
-        #img[2,:,:]=img[2,:,:]-104.877445883
         
         if self.transform is not None:
             img = self.transform(img)

@@ -31,6 +31,7 @@ workers = 4
 seed = time.time()
 print_freq = 200
 
+# used for training the model
 def train(train_list, model, criterion, optimizer, epoch):
     
     losses = AverageMeter()
@@ -86,7 +87,8 @@ def train(train_list, model, criterion, optimizer, epoch):
                   .format(
                    epoch, i, len(train_loader), batch_time=batch_time,
                    data_time=data_time, loss=losses))
-    
+
+# used for validation after training  
 def validate(val_list, model, criterion):
     print ('begin test')
     test_loader = torch.utils.data.DataLoader(
@@ -116,7 +118,7 @@ def validate(val_list, model, criterion):
     return mae    
         
 def adjust_learning_rate(optimizer, epoch):
-    """Sets the learning rate to the initial LR decayed by 10 every 30 epochs"""
+    """Set the learning rate to the initial lr decayed by 10 every 30 epochs"""
     
     
     lr = original_lr
@@ -136,7 +138,7 @@ def adjust_learning_rate(optimizer, epoch):
         param_group['lr'] = lr
 
 class AverageMeter(object):
-    """Computes and stores the average and current value"""
+    """Compute and store the average and current value"""
     def __init__(self):
         self.reset()
 
