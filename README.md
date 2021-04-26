@@ -24,6 +24,7 @@ Also change the `root` variable to the address of your folder.
 
 ## Testing
 Use the `CSRnet_test.ipynb` to test the model using the saved model states.\
+The `saves` folder contains the link to the trained parameters.\
 Note - Change the `root` variable to the address of your folder.
 
 ## Results
