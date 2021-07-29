@@ -1,7 +1,7 @@
 # Crowd-counting-EE626-course-project
 
 This is an implementation of the paper [CSRnet](https://arxiv.org/abs/1802.10062) for crowd counting.\
-We have used Google colab to run all phython notebooks.
+We have used Google colab to run all python notebooks.
 
 ## Dataset
 
